@@ -24,7 +24,7 @@ def weighted_centroid(hop_table, topology):
     return estimated_x, estimated_y
 
 
-def MDS_Localization(topology) :
+def MDS_Localization(hop , topology) :
     anchor_nodes = topology.anchor_nodes
     mobile_nodes =  topology.mobile_nodes
     coordinates = []
